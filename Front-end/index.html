@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NickPort</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css"> <!-- Your custom styles (for customizations) -->
+    <script src="Script.js"></script> <!-- Your custom scripts (optional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <span><i class="fa-solid fa-n brand-icon"></i><i class="fa-solid fa-p brand-icon"></i></span>
+            NickPort
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto"> <!-- Aligns the navbar items to the right -->
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="d-flex">
+            <!-- Social Links (GitHub and LinkedIn) -->
+            <a href="https://github.com/nikitapatil6268" class="btn btn-outline-light me-2" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/nikita-patil-ab64922a9" class="btn btn-outline-light" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container text-center py-5">
+            <h1 class="display-4">Hii, i'm Nikita Patil </h1>
+            <p class="lead"> A passionate developer creating beautiful and functional web applications.</p>
+            <a href="Nikita patil resume.pdf" class="btn btn-dark btn-lg" download>Download Resume</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center mb-4">
+                    <h2 color="black" class="about-heading">ABOUT ME</h2>
+                    <hr class="about-separator">
+                </div>
+                <!-- Card Container -->
+                <div class="col-lg-6">
+                    <div class="card shadow-lg">
+                        <!-- Image inside the Card (Square) -->
+                        <div class="image-container">
+                            <img src="img/photo.jpg" alt="NickPort" class="card-img-top">
+                        </div>
+                        <div class="card-body text-center">
+                            <!-- Social Media Icons -->
+                            <div class="social-icons">
+                                <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://t.me/yourtelegram" target="_blank" class="social-icon">
+                                    <i class="fab fa-telegram-plane"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Text & Skills Section (Second Column) -->
+                <div class="col-lg-6">
+                    <p class="about-text">
+                        Hi, I'm Nikita! I'm a passionate web developer with experience in creating beautiful,
+                        user-friendly applications. My expertise includes HTML, CSS, JavaScript, React, and more.
+                        I believe in building clean, efficient, and scalable code that enhances user experience.
+                    </p>
+                    <h3>Skills & Technologies</h3>
+                    <ul class="skills-list">
+                        <li>HTML5, CSS3</li>
+                        <li>JavaScript, React.js, Node.js</li>
+                        <li>Responsive Design</li>
+                        <li>Version Control (Git, GitHub)</li>
+                        <li>REST APIs & Web Services</li>
+                        <li>UI/UX Design Principles</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education py-5">
+        <div class="container">
+            <!-- Section Title -->
+            <h2 class="text-center mb-4">EDUCATION</h2>
+            <hr class="separator">
+            <p class="lead text-center mb-5">A summary of my academic background and key certifications.</p>
+
+            <!-- Horizontal Timeline -->
+            <div class="timeline horizontal">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-period">
+                        <p class="timeline-period-text">2019-2022</p>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h5 class="timeline-title">Bachelor of Science in Computer Science</h5>
+                        <p class="timeline-date">DAVV University indore</p>
+                        <hr>
+                        <p class="timeline-description">
+                            Graduated with honors. Coursework included Advanced Web Development, Data Structures,
+                            Algorithms, and Database Systems.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-period">
+                        <p class="timeline-period-text">2022-2024</p>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h5 class="timeline-title">Master Of Computer Science</h5>
+                        <p class="timeline-date">Sage University Indore</p>
+                        <hr>
+                        <p class="timeline-description">
+                            Graduated with honors. Coursework included Advanced Web Development, Data Structures,
+                            Algorithms, and Database Systems.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-period">
+                        <p class="timeline-period-text">2024</p>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h5 class="timeline-title">Web Development Internship certifications</h5>
+                        <p class="timeline-date">TECHPLEMENT</p>
+                        <hr>
+                        <p class="timeline-description">
+                            Advanced course focused on building scalable applications using HTML, CSS and modern
+                            JavaScript features.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">SKILLS</h2>
+            <hr class="saperator">
+            <p class="lead text-center mb-5">A snapshot of my technical skills and proficiency levels.</p>
+
+            <div class="row">
+                <!-- Skill 1: HTML -->
+                <div class="col-md-6 mb-4">
+                    <div class="skill-item">
+                        <h5 class="skill-title">HTML</h5>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;" role="progressbar" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <span class="progress-text">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 2: CSS -->
+                <div class="col-md-6 mb-4">
+                    <div class="skill-item">
+                        <h5 class="skill-title">CSS</h5>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 85%;" role="progressbar" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <span class="progress-text">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 3: JavaScript -->
+                <div class="col-md-6 mb-4">
+                    <div class="skill-item">
+                        <h5 class="skill-title">JavaScript</h5>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;" role="progressbar" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <span class="progress-text">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 4: React -->
+                <div class="col-md-6 mb-4">
+                    <div class="skill-item">
+                        <h5 class="skill-title">React</h5>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%;" role="progressbar" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <span class="progress-text">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 5: Node.js -->
+                <div class="col-md-6 mb-4">
+                    <div class="skill-item">
+                        <h5 class="skill-title">Bootstrap</h5>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <span class="progress-text">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 6: Git -->
+                <div class="col-md-6 mb-4">
+                    <div class="skill-item">
+                        <h5 class="skill-title">Git</h5>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 85%;" role="progressbar" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <span class="progress-text">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience py-5">
+        <div class="container">
+            <!-- Section Header -->
+            <h2 class="text-center mb-4">Experience</h2>
+            <hr class="separator">
+            <p class="lead text-center mb-5">Though I am a fresher, I’ve gained hands-on experience through internships,
+                academic projects, and certifications that have shaped my skills for real-world challenges.</p>
+
+            <!-- Timeline Container -->
+            <div class="timeline-container">
+                <!-- Experience Item 1: Internship 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h5 class="timeline-title">Frontend Developer Intern</h5>
+                        <p class="timeline-date">1 Aug 2024 - 30 Aug 2024</p>
+                        <p class="timeline-company">TECHPLEMENT</p>
+                        <p class="timeline-description">
+                            Worked as a frontend developer intern, contributing to the design and development of
+                            responsive websites using HTML, CSS, and JavaScript. Collaborated closely with UI/UX
+                            designers to implement user-friendly features.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2: Project -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h5 class="timeline-title">My Restaurant</h5>
+                        <p class="timeline-date">Oct 2024 - Nov 2024</p>
+                        <p class="timeline-company">Personal Project</p>
+                        <p class="timeline-description">
+                            Developed a fully functional MY Restaurant using HTML, CSSS and JavaScript Integrated
+                            RESTful
+                            APIs for user authentication, product management, and payment gateway integration.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <hr>
+            <div class="contact-header">
+
+                <p class="lead text-center mb-5">Have a question or want to collaborate? Feel free to send me a message!
+                </p>
+
+            </div>
+
+            <!-- Contact Form -->
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST"
+                        class="bg-white shadow-lg p-5 rounded">
+                        <!-- Name Field -->
+                        <div class="form-group mb-4">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
+                                required>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="form-group mb-4">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Enter your email" required>
+                        </div>
+
+                        <!-- Message Field -->
+                        <div class="form-group mb-4">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="6"
+                                placeholder="Type your message here" required></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+                        </div>
+
+                        <!-- Loading Spinner -->
+                        <div id="loadingSpinner" class="d-none text-center my-3">
+                            <div class="spinner-border" role="status">
+                                <span class="sr-only">Loading...</span>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Confirmation Message -->
+                    <div id="thankYouMessage" class="d-none text-center mt-4">
+                        <p class="h5 text-success">Thank you for your message! We'll get back to you soon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024 NickPort. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://github.com/nikitapatil6268" target="_blank" class="text-white">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/nikita-patil-ab64922a9" target="_blank" class="text-white">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#hero" class="text-white">
+                                <i class="fas fa-arrow-up"></i> Back to Top
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Include Font Awesome for social icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
